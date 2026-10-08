@@ -1,0 +1,11 @@
+Ecrire un algorithme qui demande un nombre a l'utilisateur et affiche s'il est pair ou impair.
+algorithme: Nombre pair ou impair
+Debut
+    ecrire 'Entrez un nombre'
+    lire nombre
+    si (nombre % 2 = 0) alors
+    ecrire 'le nombre est pair'
+sinon 
+    ecrire 'le nombre set impair'
+finsi
+Fin

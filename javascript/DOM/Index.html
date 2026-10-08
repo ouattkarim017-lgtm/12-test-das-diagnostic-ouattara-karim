@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Script.js" defer type="module"></script>
+</head>
+<body>
+        <form action="" id="formulaire">
+        <h1>Formulaire d'inscription</h1>
+        <div class="contenaire">
+            <label for="firstname">
+                Nom<i class="star">*</i>:
+            </label>
+            <input type="text" name="firstname" id="firstname" placeholder="Entrez votre nom">
+            <i class="error-message"></i>
+        </div>
+        <div class="contenaire">
+            <label for="lastname">
+                Prenom<i class="star">*</i>:</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Entrez votre prenom">
+            <i class="error-message"></i>
+        </div>
+        <div class="contenaire">
+            <label for="mail">
+                Mail<i class="star">*</i>:
+            </label>
+            <input type="email" name="mail" id="mail" placeholder="Entrez votre email">
+            <i class="error-message"></i>
+        </div>
+        <div class="contenaire">
+            <label for="password">
+                Mot de passe<i class="star">*</i>:
+            </label>
+            <input type="password" name="password" id="password" placeholder="Entrez votre mot de passe">
+            <i class="error-message"></i>
+        </div>
+        <div class="contenaire">
+            <button type="submit" id="submit">S'inscrire</button>
+        </div>
+        <div class="contenaire">
+            <button type="submit" id="submit" class="Théme">Changer le theme</button>
+        </div>
+        <p class="Message"></p>
+    </form>
+    <button class="mode-sombre">sombre/clair</button>
+</body>
+</html>

@@ -1,0 +1,27 @@
+Ecrire un algorithme sous forme de fonction qui recoit 3 notes en parametre, calcule leur moyenne, 
+et retourne "Admis" si la moyenne est superieure ou egale a 10, sinon "Ajourne".
+
+
+
+
+algorithme: calculeMoyenne
+    fonction notesEtudiant(Note1, Note2, Note3)
+    var: moyenne 
+      : reel
+Debut
+  ecrire 'Entrez la note1'
+    lire  Note1
+  ecrire 'Entrez la note1'
+    lire  Note3
+  ecrire 'Entrez la note1'
+    lire  Note3
+
+      moyenne(note1 + note2 + note3) / 3
+
+    si (moyenne >= 10) alors 
+  ecrire 'vous etre admis'
+    sinon 
+  ecrire 'vous etre Ajourne'
+finsi    
+
+Fin
